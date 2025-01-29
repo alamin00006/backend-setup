@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 // console.log('hello')
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World')
+  res.send('Hello World!')
 })
 
 export default app
